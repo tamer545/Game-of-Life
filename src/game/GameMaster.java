@@ -75,4 +75,8 @@ public class GameMaster {
     public static int random(int min, int max) {
         return ThreadLocalRandom.current().nextInt(min, max);
     }
+
+    public static int getGen() {
+        return gen;
+    }
 }

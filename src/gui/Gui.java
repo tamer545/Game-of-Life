@@ -12,7 +12,7 @@ public class Gui {
 
     public void create() {
         jFrame = new JFrame("Game of Life");
-        jFrame.setSize(550, 570);
+        jFrame.setSize(750, 570);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setLocationRelativeTo(null);
         jFrame.setResizable(false);

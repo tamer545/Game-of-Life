@@ -32,6 +32,11 @@ public class Draw extends JLabel {
 
             }
         }
+        //Draw Generation
+        g.setColor(Color.BLACK);
+        g.setFont(new Font("Arial", Font.BOLD, 20));
+        g.drawString("Generation: " + GameMaster.getGen(), 550, 50);
+
 
         repaint();
     }
